@@ -1,0 +1,18 @@
+
+$navbar-height: 100px;
+
+@import 'bootstrap';
+
+.navbar-brand img {
+	width: 100px;
+	margin-top: -20px;
+}
+
+.welcome-text h3 {
+	float: left;
+	font-family: 'Satisfy', cursive;
+}
+
+.welcome-img {
+	width: 100%;
+}

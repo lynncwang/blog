@@ -1,2 +1,16 @@
-<h1>Hello, Rails!</h1>
-<%= link_to 'My Blog', controller: 'articles' %>
+<div class="container welcome-page">
+	<div class="row">
+
+		<div class="col-sm-8">
+			<%= image_tag("fuji.jpg", class: "welcome-img") %>
+		</div>
+		<div class="welcome-text col-sm-4">
+			<h3>"One's philosophy is not best expressed in words; it is expressed in the choices one makes... and the choices we make are ultimately our responsibility."<br><br>
+				- Eleanor Roosevelt</h3>
+			<%= link_to 'Read My Blog', {controller: 'articles'}, class: 'btn btn-primary btn-lg' %>
+		</div>
+
+	</div>
+	
+	
+</div>
